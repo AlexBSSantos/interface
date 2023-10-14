@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin-left: 176px;
+}
+
+header{
+    background-color: yellow;
+    height: 50px;
+    margin-bottom: 40px;
+}
+user{
+    display: block;
+    text-align: right;
+    padding-right: 150px;
+    position: relative;
+    bottom: 15px;
+}
+user i#not{
+    padding: 15px;
+}
+user i#per{
+    padding-right: 5px;
+}
+user p{
+    font-size: 11px;
+    position: relative;
+    right: 18px;
+}
+nav{
+    background-color: white;
+    height: 100%;
+    width: 155px;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+ul{
+    display: inline-block;
+    height: 100%;
+    list-style-type: none;
+    text-align: left;
+    padding-top: 15px;
+    padding-left: -10px;
+}
+ul li.item a{
+    color: rgb(63, 63, 63);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+}
+ul li.item a .text{
+    padding-left: 10px;
+}
+
+div.pesquisa{
+    display: inline-block;
+    margin-left: 120px;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    left: 300px;
+    top: 10px;
+    height: 30px;
+    width: 250px;
+}
+div.pesquisa i#pes{
+    padding-right: 10px;
+    color: rgb(139, 139, 139);
+}
+div.pesquisa p{
+    padding-left: 10px;
+    position: relative;
+    top: 5px;
+    left: 8px;
+    color: rgb(139, 139, 139);
+}
+
+div.exp{
+    width: 100%;
+    text-align: left;
+}
+nav p{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+i#icon{
+    margin-right: 15px;
+    margin-left: -25px;
+}
+div.exp .user{
+    display: inline-block;
+    padding-right: 7px;
+}
+
+main{
+    text-align: center;
+}
+
+div.div1, div.div2, div.div3, div.div4, div.div5, div.div6{
+    padding: 20px;
+    display: inline-block;
+    border: 1px solid black;
+    height: 275px;
+    width: 250px;
+    margin: 5px;
+}
+div.div2{
+    margin: 20px;
+}
+div.div5{
+    margin: 20px;
+}
