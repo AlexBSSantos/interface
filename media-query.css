@@ -5,11 +5,23 @@
     body, header{
         width: 100vw;
     }
+    header{
+        background-image: linear-gradient(to right,yellow, white);
+    }
     body{
         margin-left: 177px;
     }
     div.pesquisa{
         display: none;
+    }
+    div.pesquisacel{
+        background-color: white;
+        width: 170px;
+        position: relative;
+        top: 15px;
+        left: 90px;
+        padding: 5px;
+        border-radius: 5px;
     }
     user{
         display: none;
