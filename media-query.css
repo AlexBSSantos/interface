@@ -15,6 +15,7 @@
         display: none;
     }
     div.pesquisacel{
+        display: inline-block;
         background-color: white;
         width: 170px;
         position: relative;
