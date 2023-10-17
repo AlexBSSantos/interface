@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    
+    body, header{
+        width: 100vw;
+    }
+    body{
+        margin-left: 177px;
+    }
+    div.pesquisa{
+        display: none;
+    }
+    user{
+        display: none;
+    }
+}
