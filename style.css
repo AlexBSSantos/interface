@@ -110,17 +110,64 @@ main{
     text-align: center;
 }
 
-div.div1, div.div2, div.div3, div.div4, div.div5, div.div6{
-    padding: 20px;
+div.div1, div.div2, div.div3, div.div4, div.div5{
+    padding: 0px;
     display: inline-block;
     border: 1px solid black;
-    height: 275px;
+    height: 279px;
     width: 250px;
     margin: 5px;
+    padding-right: 95px;
+    padding-bottom: 100px;
 }
 div.div2{
     margin: 20px;
+    padding-right: 99px;
+}
+img#img2{
+    position: relative;
+    left: -2px;
 }
 div.div5{
-    margin: 20px;
+    padding-right: 134px;
+    height: 287px;
+}
+img#img5{
+    position: relative;
+    top: -4px;
+}
+div.div3{
+    padding-right: 101px;
+}
+div.div4{
+    padding-right: 125px;
+}
+main div p.valor{
+    text-align: left;
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: x-large;
+}
+main div p.loc{
+    text-align: left;
+    padding-left: 15px;
+    font-size: 0.8em;
+}
+main div p.com{
+    text-align: left;
+    padding-left: 15px;
+    color: red;
+    font-size: 0.8em;
+}
+p.icon{
+    text-align: left;
+    padding-left: 15px;
+}
+main div p.comod{
+    text-align: left;
+    font-size: 0.6em;
+    padding-left: 15px;
+}
+i.fa-solid-fa-bed{
+    padding: 50px;
 }
